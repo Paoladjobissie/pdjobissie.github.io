@@ -1,3 +1,2 @@
-#Cloud Ingineer
-#Cloud Solution Architech
-#Cloud Security Ingineer
+#Cloud Engineer #Cloud Solution Architech# Cloud Security Engineer
+Results-driven Cloud Engineer with over 5 years of comprehensive experience in designing, deploying, and managing robust cloud infrastructure in AWS and Azure environments. Proven track record in automation, security, cost optimization, and cross-functional collaboration to achieve 99.99% uptime and substantial cost savings. Skilled in driving operational excellence through infrastructure as code, containerization, and advanced monitoring techniques. Certified in AWS and Azure with a focus on high-availability solutions and scalable architecture.
