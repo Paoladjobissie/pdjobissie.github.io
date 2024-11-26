@@ -1,11 +1,19 @@
+import { ThemeProvider } from "styled-components";
+import { useState, useEffect } from "react";
+import { darkTheme, lightTheme } from './utils/themes.js'
+import Navbar from "./components/Navbar";
 import './App.css';
-import styled, { ThemeProvider } from 'styled-components'; 
-import { darkTheme } from './utils/themes.js'
-import Navbar from './components/navbar';
-import Skills from './components/Skills/index.js';
-import Education from './components/Education/index.js';
-import {BrowserRouter as Router } from "react-router-dom";
-import HeroSection from './components/HeroSection/index.js';
+import { BrowserRouter as Router } from 'react-router-dom';
+import HeroSection from "./components/HeroSection";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import ProjectDetails from "./components/ProjectDetails";
+import styled from "styled-components";
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -37,12 +45,18 @@ function App() {
           <HeroSection />
           <Wrapper>
           <Skills />
-          <Education />
+          <Experience />
         </Wrapper>
+        <Projects />
+        <Wrapper>
+          <Education />
+          <Contact />
+        </Wrapper>
+        <Footer />
       </Body>
     </Router>
-    </ThemeProvider>
+    </ThemeProvider>  
   );
 }
 
-export default App;
+export default App;

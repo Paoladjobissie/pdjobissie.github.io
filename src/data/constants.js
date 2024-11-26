@@ -1,16 +1,16 @@
 export const Bio = {
-    name: "Viviane Huguette",
+    name: "Paola Djobissie",
     roles: [
       "Cloud Engineer",
-      "Microsoft Azure Administrator"
+      "Microsoft Azure Engineer"
       
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-    github: "https://github.com/dashboard",
+      "I am a motivated, self taugh and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    github: "https://github.com/paoladjobissie",
     resume:
-      "https://drive.google.com/drive/home",
-    linkedin: "https://www.linkedin.com/feed/",
+      "https://docs.google.com/document/d/19uUcVrAqH1Yb8u2LP1zS1AyJigN8JdJTaB9TQs1ILlk/edit?usp=sharing",
+    linkedin: "https://www.linkedin.com/in/paola-siako-djobissie-058b7a21b/",
   };
   
   export const skills = [
@@ -22,7 +22,18 @@ export const Bio = {
           image:
             "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F992l7q3goclsz7dnyemr.png",
         },
-        
+        {
+          name: "DNS",
+          image: "https://journeyofthegeek.com/wp-content/uploads/2019/11/azure-dns.png?w=512&h=476&crop=1",
+        },
+        {
+          name: "Load Balancer",
+          image: "https://cdn-icons-png.flaticon.com/512/8741/8741209.png",
+        },
+        {
+          name: "Security Groups",
+          image: "https://community.exoscale.com/documentation/compute/img/compute/security-groups-example-01.svg",
+        },
       
        
       ],
@@ -30,7 +41,18 @@ export const Bio = {
     {
       title: "Automation Tools",
       skills: [
-        
+        {
+          name: "Bash",
+          image: "https://bashlogo.com/img/logo/jpg/full_colored_light.jpg",
+        },
+        {
+          name: "Python",
+          image: "raw.githubusercontent.com/dhttps://revicons/devicon/master/icons/python/python-original.svg",
+        },
+        {
+          name: "Powershell",
+          image: "https://cdn.iconscout.com/icon/free/png-256/free-powershell-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945093.png?f=webp&w=256",
+        },
         
       ],
     },
@@ -42,16 +64,50 @@ export const Bio = {
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
         },
-       
-      ],
+
+        {
+          name: "Microsoft Hyper-V",
+          image: "https://www.cloudwards.net/wp-content/uploads/2018/10/Hyper-V-Logo.png",
+        },
+
+        {
+          name: "VirtualBox",
+          image: "https://i.pcmag.com/imagery/reviews/02sejh3pchkvzzNtx0dhTKO-13.fit_lim.size_1200x630.v1643146561.jpg",
+        },
+        {
+          name: "Azure Virtual Machine",
+          image: "https://www.softwaretestinghelp.com/wp-content/qa/uploads/2018/08/virtualpc.jpg",
+        },
+
+        {
+          title: "Security",
+          skills: [
+        {
+          name: "IAM",
+          image: "https://s34378.pcdn.co/wp-content/uploads/2021/12/Cyral-Diagram-2-1600x1425.png",
+        },
+        {
+           name: "Cloud Compliance",
+           image: "https://www.checkpoint.com/wp-content/uploads/icon-private-public.png",
+        },
+        {
+           name: "Azure Firewall",
+           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2OvCPOrNbfckG71EX4cMl_PrXDV17YNHfXQ&s",
+        },
+        {
+           name: "Access Role-Based Control",
+           image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa3fVP_LarPpUUBYGNxiDMl2vPRi5Jr1b-PA&s",
+         },
+
+       ],
     },
+
     {
       title: "Others",
       skills: [
         {
           name: "Git",
-          image:
-            "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          image: "https://pedrorijo.com/assets/img/git-logo.png",
         },
         {
           name: "GitHub",
@@ -88,17 +144,29 @@ export const Bio = {
           name: "Node Js",
           image: "https://nodejs.org/static/images/logo.svg",
         },
-        
-        {
-          name: "Python",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-        },
 
-      ],
+        {
+          name: "DeVops",
+          image:
+            "https://marvel-b1-cdn.bc0a.com/f00000000236551/dt-cdn.net/wp-content/uploads/2021/07/13429_ILL_DevOpsLoop.png",
+        },
+      
+        {
+          name: "Microsoft Entra ID",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMKEasYNJcvlR1LEtrN5G0pnfvgTBrwZms5g&s",    
+        },
+        {
+          name: "Azure Disaster Recovery",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxL9dHYRKZaJSj26ZV5wcP9_D7kDshXB6VA&s",
+        },
+        {
+          name: "Azure Backup",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYxL9dHYRKZaJSj26ZV5wcP9_D7kDshXB6VA&s",
+        },
         
+      ],
     },
-  ];
+  ],
   
   export const experiences = [
     {
@@ -205,34 +273,70 @@ export const Bio = {
     },
   ];
   
+
   export const education = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-      school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-      date: "Oct 2021 - Sep 2025",
-      grade: "8.71 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-      degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+      img: "https://mms.businesswire.com/media/20241023977069/en/813216/5/DVU_LOGO_BusinessWire.jpg",
+      school: "DeVry University in Lisle, Illinois",
+      date: "January 2023 - March 2025",
+      desc: "I am currently pursuing a Bachelor's degree in Information Technology and Networking at DeVry University. I have completed 11 semesters. I have taken courses in Principles & Theory of Security Management, Info Systems & Programming, Data Center Virtualization, Network Systems Administration, Operating Systems, and Computer Networks, among others. I have participated in a cloud computing program with Great Learning where I was able to obtain a good amount of knowledges on cloud computing on AWS and DevOps.I am also in a mentorship program with MCdns LLC, where I am learning and working on exciting projects with a team of talented developers.",
+      degree: "Bachelor of Information Technology and Networking",
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2019 - Apr 2025",
-      grade: "88.2%",
-      desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-      degree: "ISC(XII), Science with Computer",
+      img: "https://mms.businesswire.com/media/20241023977069/en/813216/5/DVU_LOGO_BusinessWire.jpg",
+      school: "DeVry University in Lisle, Illinois",
+      date: "Jan 2021 - Apr 2023",
+      desc: "I completed my associete degree in Information Technology and Networking at DeVry University, where I have completed at least 10 semesters and obtain certifications along the way.",
+      degree: "Associete in applied science of Information Technology and Networking",
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-      school: "Methodist School, Dankuni",
-      date: "Apr 2017 - Apr 2019",
-      grade: "92.3%",
-      desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-      degree: "ICSC(X), Science with Computer",
+      img: "https://media.assettype.com/analyticsinsight%2F2024-07%2Feaab4424-0962-4f9a-aded-58317836c1d2%2FGreat_Learning12_1024x682.png",
+      school: "University of Texas at Austin ",
+      date: "Jan 2024 - Jul 2024",
+      desc: "I completed my Post Graduate Program in Cloud Computing and have gained valuable knowledges and certifications on AWS cloud computing",
+      degree: "Post Graduate Program in Cloud Computing",
     },
+    {
+      id: 1,
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX1z5XvAwS8G_ojSep2CpJdkYJ7MhpUvJ_8g&s",
+      school: "MICROSOFT",
+      date: "2022",
+      grade: "",
+      desc: "",
+      degree: "Microsft Certified: Azure Fundamentals (AZ-900_",
+    },
+    {
+      id: 2,
+      img: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
+      school: "MICROSOFT",
+      date: "",
+      grade: "",
+      desc: "",
+      degree: "Microsoft Certified: Azure Administrator (AZ-104)",
+    },
+    {
+      id: 3,
+      img: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
+      school: "MICROSOFT",
+      date: "",
+      grade: "",
+      desc: "",
+      degree: "Azure Security Engineer (AZ-500)",
+    },
+
+    {
+      id: 4,
+      img: "https://cdn-images-1.medium.com/v2/resize:fit:480/1*Mwn0bKiCG1HxECkvBH0yXw.png",
+      school: "MICROSOFT",
+      date: "",
+      grade: "",
+      desc: "",
+      degree: "Microsoft Cybersecurity Architect (SC-100)",
+    },
+
   ];
   
   export const projects = [
@@ -317,18 +421,18 @@ export const Bio = {
       image:
         "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "machine learning",
+      category: "automation",
       github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
       webapp: "https://brain-tumor.netlify.app/",
       member: [
         {
-          name: "Rishav Chanda",
+          name: "Paola Djobissie",
           img: "https://avatars.githubusercontent.com/u/64485885?v=4",
           linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
           github: "https://github.com/rishavchanda/",
         },
         {
-          name: "Upasana Chaudhuri",
+          name: "Paola Djobissie",
           img: "https://avatars.githubusercontent.com/u/100614635?v=4",
           linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
           github: "https://github.com/upasana0710",
@@ -344,7 +448,7 @@ export const Bio = {
       image:
         "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
       tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
-      category: "android app",
+      category: "monitoring",
       github: "https://github.com/rishavchanda/Buckoid-Android-App",
       webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
     },
@@ -357,7 +461,7 @@ export const Bio = {
       image:
         "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
       tags: ["React Native", "JavaScript", "Axios"],
-      category: "android app",
+      category: "monitoring",
       github: "https://github.com/rishavchanda/Job-finder-App",
       webapp: "https://github.com/rishavchanda/Job-finder-App",
     },
@@ -370,33 +474,33 @@ export const Bio = {
       image:
         "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
       tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-      category: "web app",
+      category: "devops",
       github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
       webapp: "https://whatsapp-clone-rishav.web.app",
     },
     {
       id: 5,
-      title: "Todo Web App",
+      title: "To Do devops",
       date: "Jun 2021",
       description:
         " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
       image:
         "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
       tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-      category: "web app",
+      category: "devops",
       github: "https://github.com/rishavchanda/Todo-Web-App",
       webapp: "https://rishav-react-todo.netlify.app/",
     },
     {
       id: 6,
-      title: "Breaking Bad",
+      title: "Disaster Recovery",
       date: "Jun 2021",
       description:
         "A simple react app that shows the characters of the famous TV series Breaking Bad. It uses the Breaking Bad API to fetch the data. It also has a search bar to search for a particular character.",
       image:
         "https://camo.githubusercontent.com/cd07010cbeb90cb1b43a5d6162784326aef02210ef7d41a0f9ae043b3e392378/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f7425323028313534292e706e673f616c743d6d6564696126746f6b656e3d65613439383630632d303435362d343333342d616435372d336239346663303333363263",
       tags: ["React Js", "API", "Axios", "Node JS"],
-      category: "web app",
+      category: "disaster recovery",
       github: "https://github.com/rishavchanda/Breaking-Bad",
       webapp: "https://breaking-bad-webapp.netlify.app",
     },
@@ -415,14 +519,14 @@ export const Bio = {
     },
     {
       id: 8,
-      title: "Face Recognition",
+      title: "Cloud Migration",
       date: "Jan 2021",
       description:
         "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
       image:
         "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
       tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-      category: "machine learning",
+      category: "migration",
       github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
       webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     },
