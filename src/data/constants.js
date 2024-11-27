@@ -14,9 +14,9 @@ export const skills = [
     title: "Networking",
     skills: [
       {
-        name: "VMSS",
+        name: "VPN",
         image:
-          "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F992l7q3goclsz7dnyemr.png",
+          "https://www.ipxo.com/app/uploads/2021/12/What-is-VPN-image-820x460.jpg",
       },
       {
         name: "DNS",
@@ -57,9 +57,9 @@ export const skills = [
     title: "Virtualization",
     skills: [
       {
-        name: "Red Hat",
+        name: "Linux",
         image:
-          "https://linprofs.com/wp-content/uploads/2024/08/redhat-enterprise-virtualization.png",
+          "https://cyberhoot.com/wp-content/uploads/2020/11/2-1024x565.jpg",
       },
       {
         name: "Microsoft Hyper-V",
@@ -75,6 +75,11 @@ export const skills = [
         name: "Azure Virtual Machine",
         image:
           "https://www.softwaretestinghelp.com/wp-content/qa/uploads/2018/08/virtualpc.jpg",
+      },
+      {
+        name: "Windows Server",
+        image:
+          "https://www.bleepstatic.com/content/hl-images/2024/05/14/Windows-Server.jpg",
       },
     ],
   },
@@ -157,9 +162,9 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
       {
-        name: "VPN",
+        name: "CloudFormation",
         image:
-          "https://www.ipxo.com/app/uploads/2021/12/What-is-VPN-image-820x460.jpg",
+          "https://encore.dev/assets/resources/awscf_cover.png",
       },
     ],
   },
@@ -232,6 +237,30 @@ export const skills = [
         name: "CloudWatch",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpt5BrKhQyWtgTSPKj5emFdnr_mgJdDMqC3A&s",
+      },
+      {
+        name: "Encription",
+        image:
+          "https://www.1kosmos.com/wp-content/uploads/encryption-hero.jpg",
+      },
+      {
+        name: "CIS Benchmarks",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhdVNLL97M9nkrPpKxNEGyBp8pBRE6IJeW2A&s",
+      },{
+        name: "Datadog",
+        image:
+          "https://imgix.datadoghq.com/img/about/presskit/logo-v/dd_vertical_white.png?auto=format&fit=max&w=847&dpr=2",
+      },
+      {
+        name: "Multiregion strategies",
+        image:
+          "https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2024/05/07/fig1-multi-region-failover-strategy-1024x823.png",
+      },
+      {
+        name: "AWS Backup",
+        image:
+          "https://digitalcloud.training/wp-content/uploads/2022/01/AWS-Backup.jpg",
       },
     ],
   },
@@ -357,7 +386,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg",
+    img: "https://zimmergren.net/content/images/size/w1384/2019/09/azure-security-engineer-associate600x600-2.png",
     school: "MICROSOFT",
     date: "",
     grade: "",
