@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Paoladjobissie/pdjobissie.github.io/static/css/main.bf538fe7.css",
-    "main.js": "/Paoladjobissie/pdjobissie.github.io/static/js/main.1de541c2.js",
-    "static/media/Heroimages.jpg": "/Paoladjobissie/pdjobissie.github.io/static/media/Heroimages.f0a84052f467869a74a0.jpg",
-    "index.html": "/Paoladjobissie/pdjobissie.github.io/index.html",
-    "main.bf538fe7.css.map": "/Paoladjobissie/pdjobissie.github.io/static/css/main.bf538fe7.css.map",
-    "main.1de541c2.js.map": "/Paoladjobissie/pdjobissie.github.io/static/js/main.1de541c2.js.map"
+    "main.css": "/pdjobissie.github.io/static/css/main.bf538fe7.css",
+    "main.js": "/pdjobissie.github.io/static/js/main.a4b2f058.js",
+    "static/media/Heroimages.jpg": "/pdjobissie.github.io/static/media/Heroimages.f0a84052f467869a74a0.jpg",
+    "index.html": "/pdjobissie.github.io/index.html",
+    "main.bf538fe7.css.map": "/pdjobissie.github.io/static/css/main.bf538fe7.css.map",
+    "main.a4b2f058.js.map": "/pdjobissie.github.io/static/js/main.a4b2f058.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.1de541c2.js"
+    "static/js/main.a4b2f058.js"
   ]
 }
