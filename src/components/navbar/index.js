@@ -218,7 +218,7 @@ const Navbar = () => {
                   Skills
                 </MobileMenuLinks>
                 <MobileMenuLinks
-                    href='#experience' 
+                    href='#skills' 
                     onClick={() => {
               setopen(!open)
              }}
