@@ -11,6 +11,7 @@ import Projects from './components/Projects/index.js';
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;

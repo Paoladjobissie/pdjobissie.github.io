@@ -7,6 +7,8 @@ export const Bio = {
   resume:
     "https://docs.google.com/document/d/19uUcVrAqH1Yb8u2LP1zS1AyJigN8JdJTaB9TQs1ILlk/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/paola-siako-djobissie-058b7a21b/",
+  facebook: "https://www.facebook.com/paola.latifah",
+  instagram: "https://www.instagram.com/paola.latifah/",
 };
 
 export const skills = [

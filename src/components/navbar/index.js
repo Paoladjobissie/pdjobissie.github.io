@@ -4,6 +4,7 @@ import styled from "styled-components";
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { useTheme } from 'styled-components';
+import { Bio } from '../../data/constants';
 
 const Nav = styled.div`
     background-color: ${({ theme }) => theme.card_light};
@@ -194,7 +195,7 @@ const Navbar = () => {
             <NavLink href ="#projects">Projects</NavLink>
           </NavItems>
           <ButtonsContainer>
-            <GitHubButton>Github profile</GitHubButton>
+            <GitHubButton href={Bio.github} target="_blank">Github profile</GitHubButton>
           </ButtonsContainer>
         </NavContainer>  
         {    
