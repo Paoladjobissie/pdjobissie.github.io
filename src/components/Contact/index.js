@@ -151,7 +151,7 @@ const Contact = () => {
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInputMessage placeholder="Message" rows="4" name="paola" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         <Snackbar
